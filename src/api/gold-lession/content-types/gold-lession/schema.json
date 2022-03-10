@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gold_lessions",
+  "info": {
+    "singularName": "gold-lession",
+    "pluralName": "gold-lessions",
+    "displayName": "Gold_lession"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "personal_ideal": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "MA",
+        "PersonalExperience",
+        "GoldTurn",
+        "TradingViewChart",
+        "RiskManagement",
+        "RangeManager"
+      ]
+    },
+    "image_lession": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "author": {
+      "type": "string"
+    },
+    "time_lession": {
+      "type": "datetime"
+    }
+  }
+}

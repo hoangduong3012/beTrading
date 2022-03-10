@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "symbol": {
+      "type": "string"
+    },
+    "ticket": {
+      "type": "biginteger"
+    },
+    "time": {
+      "type": "datetime"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "sell",
+        "buy"
+      ]
+    },
+    "order_price": {
+      "type": "float"
+    },
+    "stop_loss": {
+      "type": "float"
+    },
+    "take_profit": {
+      "type": "float"
+    },
+    "volume": {
+      "type": "decimal"
+    },
+    "cut_price": {
+      "type": "float"
+    },
+    "profit": {
+      "type": "float"
+    }
+  }
+}
