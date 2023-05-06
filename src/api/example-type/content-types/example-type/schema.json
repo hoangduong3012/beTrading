@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "example_types",
+  "info": {
+    "singularName": "example-type",
+    "pluralName": "example-types",
+    "displayName": "Example",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "date_add": {
+      "type": "datetime"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "isDeleted": {
+      "type": "boolean"
+    },
+    "imgUrls": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
