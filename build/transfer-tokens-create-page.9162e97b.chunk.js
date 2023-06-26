@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbe_trading=self.webpackChunkbe_trading||[]).push([[4816],{39987:(a,t,e)=>{e.r(t),e.d(t,{default:()=>_});var n=e(53547),s=e(2911),E=e(87751),r=e(53219);const _=()=>n.createElement(s.O4,{permissions:E.Z.settings["transfer-tokens"].create},n.createElement(r.Z,null))}}]);

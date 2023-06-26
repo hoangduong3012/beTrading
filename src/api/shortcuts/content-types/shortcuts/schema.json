@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shortcuts1",
+  "info": {
+    "singularName": "shortcuts",
+    "pluralName": "shortcuts1",
+    "displayName": "Shortcuts"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "users": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "shortcuts"
+    }
+  }
+}

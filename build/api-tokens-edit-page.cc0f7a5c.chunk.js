@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbe_trading=self.webpackChunkbe_trading||[]).push([[92],{28465:(i,t,e)=>{e.r(t),e.d(t,{default:()=>a});var n=e(53547),E=e(2911),s=e(87751),_=e(57692);const a=()=>n.createElement(E.O4,{permissions:s.Z.settings["api-tokens"].read},n.createElement(_.Z,null))}}]);
