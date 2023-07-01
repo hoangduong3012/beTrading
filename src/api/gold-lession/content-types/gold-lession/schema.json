@@ -4,7 +4,8 @@
   "info": {
     "singularName": "gold-lession",
     "pluralName": "gold-lessions",
-    "displayName": "Gold_lession"
+    "displayName": "Gold_lession",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,18 +29,23 @@
         "GoldTurn",
         "TradingViewChart",
         "RiskManagement",
-        "RangeManager"
+        "RangeManager",
+        "ElliotWave",
+        "SD",
+        "SMC",
+        "Wyckoff"
       ]
     },
     "image_lession": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "author": {
       "type": "string"
