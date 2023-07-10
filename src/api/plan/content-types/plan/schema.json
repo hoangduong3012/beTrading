@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "singularName": "plan",
+    "pluralName": "plans",
+    "displayName": "Plan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "planDate": {
+      "type": "datetime"
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "plan"
+    },
+    "symbol": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::symbol.symbol",
+      "inversedBy": "plans"
+    }
+  }
+}
