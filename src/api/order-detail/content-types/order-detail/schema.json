@@ -21,11 +21,6 @@
     "explain_reason_entry": {
       "type": "richtext"
     },
-    "order": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::order.order"
-    },
     "image_detail": {
       "type": "media",
       "multiple": true,

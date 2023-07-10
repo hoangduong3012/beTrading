@@ -52,6 +52,16 @@
     },
     "time_lession": {
       "type": "datetime"
+    },
+    "examples": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::example-type.example-type"
+    },
+    "practices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::practice.practice"
     }
   }
 }
