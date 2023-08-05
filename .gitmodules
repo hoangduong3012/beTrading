@@ -1,0 +1,3 @@
+[submodule "feTrading"]
+	path = feTrading
+	url = git@github.com:hoangduong3012/feTrading.git
