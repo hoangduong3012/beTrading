@@ -43,15 +43,22 @@
     "profit": {
       "type": "float"
     },
-    "order_detail": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::order-detail.order-detail"
-    },
     "symbol": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::symbol.symbol"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "active",
+        "cancel",
+        "done"
+      ]
     }
   }
 }
