@@ -32,6 +32,9 @@
       "relation": "manyToOne",
       "target": "api::symbol.symbol",
       "inversedBy": "plans"
+    },
+    "author": {
+      "type": "string"
     }
   }
 }
